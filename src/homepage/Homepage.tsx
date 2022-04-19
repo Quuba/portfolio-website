@@ -1,5 +1,6 @@
 import React from 'react';
 import './homepage.css';
+import image from './images/website_under_construction.jpg'
 
 const Homepage = () => {
     return (
@@ -8,7 +9,7 @@ const Homepage = () => {
             <h3>Come again later</h3>
             <div id="img-container">
                 <div className="box">
-                    <img src="./images/website_under_construction.jpg" alt="Strona w budowie"/>
+                    <img src={image} alt="Strona w budowie"/>
                 </div>
             </div>
             <a href="https://jakubcendrowski.pl/quizappka">quiz appka</a>
