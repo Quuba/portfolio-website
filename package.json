@@ -1,6 +1,6 @@
 {
   "name": "portfolio-website",
-  "homepage": ".",
+  "homepage": "https://jakubcendrowski.pl/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
