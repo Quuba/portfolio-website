@@ -11,8 +11,8 @@ const Homepage = () => {
                 <div className="box">
                     <img src={image} alt="Strona w budowie"/>
                 </div>
+                <a href="https://jakubcendrowski.pl/quizappka">quiz appka</a>
             </div>
-            <a href="https://jakubcendrowski.pl/quizappka">quiz appka</a>
         </div>
     );
 };
