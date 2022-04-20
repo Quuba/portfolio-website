@@ -14,7 +14,6 @@ const Homepage = () => {
                     <img src={image} alt="Strona w budowie"/>
                 </div>
                 <a href="https://jakubcendrowski.pl/wave-function-collapse-algorithm">sudoku</a>
-                <Link to={'a'}>AAAA</Link>
             </div>
         </div>
     );
