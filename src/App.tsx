@@ -7,8 +7,8 @@ import SecretPage from "./secret/SecretPage";
 
 const App = () => {
     let route = useRoutes([
-        {path: '/', element: <Homepage/>},
-        {path: '/secret', element: <SecretPage/>}
+        {path: '', element: <Homepage/>},
+        {path: 'secret', element: <SecretPage/>}
     ])
 
     return (
