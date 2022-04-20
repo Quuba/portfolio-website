@@ -18,9 +18,9 @@ const App = () => {
 
 const AppWrapper = () => {
     return (
-        <BrowserRouter>
+        <HashRouter>
             <App/>
-        </BrowserRouter>
+        </HashRouter>
     )
 }
 export default AppWrapper;
