@@ -1,12 +1,26 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Homepage from "./homepage/Homepage";
+import {BrowserRouter, HashRouter, useRoutes} from "react-router-dom";
+import SecretPage from "./secret/SecretPage";
 
-function App() {
-  return (
-    <Homepage/>
-  );
+
+const App = () => {
+    let route = useRoutes([
+        {path: '/', element: <Homepage/>},
+        {path: '/secret', element: <SecretPage/>}
+    ])
+
+    return (
+        route
+    );
 }
 
-export default App;
+const AppWrapper = () => {
+    return (
+        <BrowserRouter>
+            <App/>
+        </BrowserRouter>
+    )
+}
+export default AppWrapper;
