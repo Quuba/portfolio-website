@@ -9,6 +9,7 @@ body {
   text-align: center;
   color: whitesmoke;
   background-color: #282c34;
+  min-height: 100vh;
   z-index: 0;
 }
 
