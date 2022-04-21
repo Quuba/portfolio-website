@@ -1,17 +1,20 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.App-header {
+.App {
+  text-align: center;
+  color: whitesmoke;
   background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  z-index: 0;
 }
+
+
+
+
 
 .SecretPage{
   width: 100%;

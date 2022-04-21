@@ -1,8 +1,9 @@
 import React from 'react';
 import './App.css';
 import Homepage from "./homepage/Homepage";
-import {BrowserRouter, HashRouter, useRoutes} from "react-router-dom";
+import {HashRouter, useRoutes} from "react-router-dom";
 import SecretPage from "./secret/SecretPage";
+import Header from "./common/Header";
 
 
 const App = () => {
@@ -12,7 +13,10 @@ const App = () => {
     ])
 
     return (
-        route
+        <div className={'App'}>
+            <Header/>
+            {route}
+        </div>
     );
 }
 
