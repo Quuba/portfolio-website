@@ -16,7 +16,7 @@ const InfoPage = () => {
            }
        )
     },[])
-    
+
     return (
         <div>
             <h2>Info</h2>

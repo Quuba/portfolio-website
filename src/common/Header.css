@@ -2,7 +2,7 @@
     width: 100%;
     min-height: 50px;
 
-    background-color: #c05b1c;
+    background-color: var(--background-color-highlight);
 
     display: flex;
     justify-content: space-evenly;
@@ -15,8 +15,8 @@
     margin: 0;
     padding: 8px;
 
-    color: whitesmoke;
-    background-color: #282c34;
+    color: var(--text-color);
+    background-color: var(--background-color-dark);
     border-radius: 2px;
 
     text-decoration: none;

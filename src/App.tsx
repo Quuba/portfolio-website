@@ -4,14 +4,14 @@ import Homepage from "./homepage/Homepage";
 import {HashRouter, useRoutes} from "react-router-dom";
 import SecretPage from "./secret/SecretPage";
 import Header from "./common/Header";
-import ProjectsPage from "./projects page/ProjectsPage";
+import ProjectPage from "./project page/ProjectPage";
 import InfoPage from "./info page/InfoPage";
 
 
 const App = () => {
     let route = useRoutes([
         {path: '/', element: <Homepage/>},
-        {path: '/projects', element:<ProjectsPage/>},
+        {path: '/projects', element:<ProjectPage/>},
         {path: '/info', element:<InfoPage/>},
         {path: '/secret', element: <SecretPage/>}
     ])

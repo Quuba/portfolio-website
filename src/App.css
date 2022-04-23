@@ -4,11 +4,17 @@ body {
   margin: 0;
   font-family: 'Roboto Mono', monospace;
 }
+:root{
+  --text-color: whitesmoke;
+  --background-color-dark: #282c34;
+  --background-color-highlight: #c05b1c;
+}
+
 
 .App {
   text-align: center;
-  color: whitesmoke;
-  background-color: #282c34;
+  color: var(--text-color);
+  background-color: var(--background-color-dark);
   min-height: 100vh;
   z-index: 0;
 }
