@@ -18,12 +18,13 @@ const Homepage = () => {
                 <h1>Jakub Cendrowski</h1>
                 <h2>Web developer</h2>
                 <Note id={'note1'}>
-                    <p>Strona w trakcie tworzenia.<br/> Wpadnij później</p>
+                    {/*<p>Strona w trakcie tworzenia.<br/> Wpadnij później</p>*/}
+                    <p>Website is under development.<br/><br/> Come again later</p>
 
                 </Note>
                 <Note id={'note2'} >
                     <p>
-                        Tu można mnie znaleźć:
+                        You can find me here:
                         <br/><br/>
                         <a href={'https://github.com/Quuba'}>Github</a>
                     </p>
